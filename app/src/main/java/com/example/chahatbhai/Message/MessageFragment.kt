@@ -1,0 +1,31 @@
+package com.example.chahatbhai.Message
+
+import android.os.Bundle
+import androidx.fragment.app.Fragment
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import android.widget.TextView
+import androidx.lifecycle.Observer
+import androidx.lifecycle.ViewModelProvider
+import com.example.chahatbhai.R
+
+
+class MessageFragment : Fragment() {
+
+private lateinit var messageViewModel: MessageViewModel
+
+    override fun onCreateView(
+        inflater: LayoutInflater, container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
+        messageViewModel=ViewModelProvider(this).get(MessageViewModel::class.java)
+        val root =inflater.inflate(R.layout.fragment_message,container,false)
+        val textView :TextView=root.findViewById(R.id.text_message)
+        messageViewModel.text.observe(viewLifecycleOwner, Observer {
+            textView.text=it
+        })
+        // Inflate the layout for this fragment
+        return root
+    }
+}

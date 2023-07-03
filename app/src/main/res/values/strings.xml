@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">chahat bhai</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="head_1">Bitcoin jumps 3%, hits over two-week high on relief over US debt ceiling</string>
+    <string name="head_2">Busy bitcoin births new breed of crypto</string>
+    <string name="head_3">Bitcoin Pizza Day: How one transaction in 2010 led to global crypto adoption?</string>
+
+    <string name="news_1">Bitcoin surged to a more than two-week high,rising by up to 3.2% on Monday and trading at around $28,182,thanks to investors boosted by a decision to raise the US debt limit.This is the fifth day in a row that the digital currency has recorded gains,thanks to a resolution of the US debt-ceiling impasse which helped global risk appetite.However, the agreement must still be passed quickly by Congress to avoid a US default,in addition to other potential headwinds such as a recent surge in Treasury yields and US monetary tightening.</string>
+
+    <string name="news_2">Daily transactions on the Bitcoin blockchain have reached an all-time high of 682,000,primarily due to BRC-20, the first class of tokens to be built on the blockchain.Nearly 25,000 of these tokens have already been made this year.Although the new class of crypto currently has no specific use beyond speculation,its popularity suggests interest in Bitcoin not just as a store of value or payment method,but as a foundation for developing new coins and applications.Some investors and developers view Bitcoin\'s blockchain as a safer basis for creating tokensand applications than Ethereum and Solana.</string>
+
+    <string name="news_3">Bitcoin Pizza Day marked the beginning of the real-world value of cryptocurrencies beyond a speculative nature,showcasing Bitcoin\'s potential to be used as a medium of exchange,challenging traditional fiat currencies\' notion. Since then,it experienced significant milestones in its journey towards mainstream recognition,such as its meteoric rise in value, global acceptance, institutional involvement,regulatory developments, DeFi growth, and media coverage. Additionally,it has addressed the challenges of global remittances and financial inclusion,empowering the unbanked and underbanked populations. As global crypto adoption continues,Bitcoin\'s influence extends beyond finance, promoting technological innovation and decentralization.</string>
+    <string name="heading1">Bitcoin jumps 3%, hits over two-week high on relief over US debt ceiling</string>
+</resources>
